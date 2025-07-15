@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 1em;
+}
+
+input, textarea, select {
+  padding: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.7em 1.5em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.task-bar {
+  height: 10px;
+  margin-top: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-frontend {
+  background-color: orange;
+}
+
+.task-backend {
+  background-color: #007bff;
+}
